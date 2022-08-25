@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    image: 'allteran/cascade-cs:v0.1'
+    container_name: cascade-cs
+    ports:
+      - 8888:8888
+
